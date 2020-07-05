@@ -843,3 +843,48 @@
 // var g =e +f
 // document.write("gross amount payable (after due date) : " + g + "<br>")
 
+//ASSIGNMENT 14
+//  function settingdate(){  // assignment14 question 1
+//    var fun = new Date();
+//    document.write(fun)
+//  }
+//  settingdate(); 
+  
+
+//  function settingname(){      //assignment 14 question 2
+    //    var a = prompt("enter your first name  ")
+    //    var b = prompt("enter your last name  ")
+    //    document.write(a + " " + b +"&nbsp; Good Morning Sir")
+    //   }                  
+    //   settingname();
+
+//  function settingvalue(){         //assignment 14 question 3
+//    var a = +prompt("enter first value ")
+//    var b = +prompt("enter second value ")
+//    var c = a+b
+//    document.write(c)
+//  }
+//  settingvalue();
+function makingcalculator(){
+ var a = +prompt("enter the first value ")               //assignment 14 question 4
+ var c = prompt("What Operation Do Want To Do");
+ var b = +prompt ("enter the second value ")
+
+  
+ if ( c == "+"){
+   document.write(a+b)
+ }
+ else if ( c == "*"){
+   document.write(a*b)
+  }
+  else if ( c == "-"){
+    document.write(a-b)
+  }
+  else if ( c == "/"){
+    document.write(a/b)
+  }
+  else{
+    document.write("wrong information inputted")
+  }
+}
+makingcalculator()
