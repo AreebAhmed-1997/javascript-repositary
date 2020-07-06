@@ -865,26 +865,60 @@
 //    document.write(c)
 //  }
 //  settingvalue();
-function makingcalculator(){
- var a = +prompt("enter the first value ")               //assignment 14 question 4
- var c = prompt("What Operation Do Want To Do");
- var b = +prompt ("enter the second value ")
+// function makingcalculator(){
+//  var a = +prompt("enter the first value ")               //assignment 14 question 4
+//  var c = prompt("What Operation Do Want To Do");
+//  var b = +prompt ("enter the second value ")
+//  if ( c == "+"){
+//    document.write(a+b)
+//  }
+//  else if ( c == "*"){
+//    document.write(a*b)
+//   }
+//   else if ( c == "-"){
+//     document.write(a-b)
+//   }
+//   else if ( c == "/"){
+//     document.write(a/b)
+//   }
+//   else{
+//     document.write("wrong information inputted")
+//   }
+// }
+// makingcalculator()
 
-  
- if ( c == "+"){
-   document.write(a+b)
- }
- else if ( c == "*"){
-   document.write(a*b)
-  }
-  else if ( c == "-"){
-    document.write(a-b)
-  }
-  else if ( c == "/"){
-    document.write(a/b)
-  }
-  else{
-    document.write("wrong information inputted")
-  }
+// function makingsquare(){     //assignment14 question 5
+//   var a = +prompt("enter the vaue that you want to sqaure")
+//   var b = a*a
+//   document.write("the number you provide is &nbsp;" + a + "&nbsp;and the square of the valuee is &nbsp;" + b )
+// }
+// makingsquare()
+//  function hypotneous(){     //assignment14 question 8
+//    var a = +prompt("enter the hypotneous")
+//    var b = +prompt("enter the base ")
+//    var c = Math.pow(a,2)
+//    document.write("the hypotenous is &nbsp;" + a+"&nbsp; and its square is  " +c + "<br>")
+//    var d = Math.pow(b,2)
+//    document.write("the base is &nbsp;" + b+"&nbsp; and its square is  " +d+"<br>")
+//    var e= c+d
+//    document.write("the sum of the hypotneous is &nbsp;" + e +"<br>")
+//    var f = Math.sqrt(e)
+//    document.write("the square root hypotneous is eqaul to the &nbsp;"+Math.round( f) + "<br>")
+//  }
+//  hypotneous()
+ 
+// function calccircumference(){ //assignment14 question14(a)
+//   var a = +prompt("enter the radius of the circle ")
+//   var b = 2 *Math.PI * a
+//   document.write("the circumference is &nbsp;" + b)
+// }
+// calccircumference()
+
+function calarea(){
+  var a= +prompt("enter the radius of the function")
+  var b = 2*Math.PI*a
+  var c = Math.PI*Math.pow(a,2) 
+  document.write(b +"&nbsp; is the  circumference of the circle   "+"<br>")
+  document.write(c +"&nbsp; is the  area of the circle  ")
 }
-makingcalculator()
+calarea()
